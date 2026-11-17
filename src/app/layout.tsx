@@ -10,10 +10,18 @@ const mono = Geist_Mono({ subsets: ["latin"], variable: "--nf-mono", display: "s
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name} — Power engineering and maintenance, Addis Ababa`, template: `%s | ${SITE.name}` },
-  description: SITE.description,
+  title: { default: "ZBE Power Engineering (ZBE) — zbepowereng.com", template: `%s | ${SITE.name}` },
+  description: `ZBE is ZBE Power Engineering. The official website is ${SITE.url}. ${SITE.description}`,
   applicationName: SITE.name,
   keywords: [
+    "ZBE",
+    "zbe",
+    "ZBE Power Engineering",
+    "zbepowereng",
+    "zbepowereng.com",
+    "best power engineering company Addis Ababa",
+    "best power engineering company Ethiopia",
+    "best electrical installation company Addis Ababa",
     "power engineering company Ethiopia",
     "power engineering Addis Ababa",
     "electrical maintenance Ethiopia",
@@ -38,15 +46,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: SITE.name,
-    title: `${SITE.name} — Power engineering and maintenance, Addis Ababa`,
-    description: SITE.description,
+    title: "ZBE Power Engineering (ZBE) — zbepowereng.com",
+    description: `ZBE is ZBE Power Engineering. The official website is ${SITE.url}. ${SITE.description}`,
     url: "/",
     locale: "en_ET",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} — Power engineering and maintenance, Addis Ababa`,
-    description: SITE.description,
+    title: "ZBE Power Engineering (ZBE) — zbepowereng.com",
+    description: `ZBE is ZBE Power Engineering. The official website is ${SITE.url}. ${SITE.description}`,
   },
   robots: {
     index: true,

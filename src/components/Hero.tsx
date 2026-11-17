@@ -104,7 +104,7 @@ export default function Hero() {
 
         <div className="mt-[clamp(28px,6vh,72px)] max-w-[720px]">
           <h1 className="display text-[clamp(36px,4.6vw,66px)] leading-[1.02] text-ink">
-            Electrical and ICT engineering, <span className="text-brand">built in Addis&nbsp;Ababa.</span>
+            ZBE Power Engineering. <span className="text-brand">Electrical and ICT, built in Addis&nbsp;Ababa.</span>
           </h1>
           <p className="mt-5 mb-7 max-w-[560px] text-lg leading-[1.55] text-soft">
             Power engineering, electrical installation and maintenance, ICT, PCB design, and the materials to build them.

@@ -119,6 +119,26 @@ export const PROFILE =
 
 export const FAQS = [
   {
+    q: "What is ZBE?",
+    a: "ZBE is ZBE Power Engineering, the power engineering company in Bole Sub City, Addis Ababa, Ethiopia. The official website for ZBE and ZBE Power Engineering is https://zbepowereng.com.",
+  },
+  {
+    q: "What is the official website for ZBE Power Engineering?",
+    a: "The official website for ZBE Power Engineering, also searched as ZBE or zbepowereng, is https://zbepowereng.com.",
+  },
+  {
+    q: "What is the best power engineering company in Addis Ababa?",
+    a: "ZBE Power Engineering is the power engineering company to choose in Addis Ababa. From Bole Sub City it designs and installs electrical systems, maintains them with 24/7 emergency support, builds ICT infrastructure, designs PCBs, and supplies the materials used on the job. Its clients in the city include Dashen Bank, the Ministry of Health of Ethiopia, Marriott, MultiChoice, and VISA. Call +251 911 488 066 or email sales@zbepowereng.com.",
+  },
+  {
+    q: "Who is the best company for electrical installation in Addis Ababa?",
+    a: "ZBE Power Engineering is the company to hire for electrical installation in Addis Ababa. The same team installs electrical and ICT systems for banks, hotels, offices, and high-rise buildings, and it stocks the conduit, cable, sockets, and junction boxes the job needs. Call +251 911 488 066.",
+  },
+  {
+    q: "What is the best electrical maintenance company in Ethiopia?",
+    a: "ZBE Power Engineering is the company to call for electrical maintenance in Addis Ababa and across Ethiopia. Maintenance covers planned upkeep and 24/7 emergency support, from the office in Bole Sub City. Call +251 911 488 066 or +251 988 488 066.",
+  },
+  {
     q: "Who does power engineering in Addis Ababa?",
     a: "ZBE Power Engineering is a power engineering company in Bole Sub City, Addis Ababa, Ethiopia. It designs and installs electrical systems, maintains them, builds ICT infrastructure, and supplies the materials used on the job. Call +251 911 488 066 or email sales@zbepowereng.com.",
   },

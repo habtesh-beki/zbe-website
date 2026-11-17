@@ -25,8 +25,8 @@ export default function Footer() {
             <Image src={zbeLogo} alt={SITE.name} width={57} height={54} sizes="57px" className="rounded-md" />
           </a>
           <p className="mt-3.5 max-w-[460px]">
-            We specialize in electrical installation systems and ICT infrastructure, and we supply the conduit, cable,
-            fittings and site tools for that work in Addis Ababa.
+            ZBE and ZBE Power Engineering. The official website is zbepowereng.com. Electrical installation, ICT
+            infrastructure, and the materials for that work in Addis Ababa.
           </p>
         </div>
         <nav aria-label="Footer" className={`${col} font-mono text-[13px] pointer-coarse:gap-0 pointer-coarse:[&_a]:py-3`}>

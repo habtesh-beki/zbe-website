@@ -16,7 +16,7 @@ const jsonLd = {
       "@type": ["Electrician", "Store"],
       "@id": businessId,
       name: SITE.name,
-      alternateName: ["ZBE", "zbepowereng", "ZBE Power Eng"],
+      alternateName: ["ZBE", "zbe", "ZBE Power Engineering", "zbepowereng", "zbepowereng.com", "ZBE Power Eng"],
       url: SITE.url,
       description: PROFILE,
       slogan: SITE.tagline,
@@ -113,7 +113,10 @@ export default function Home() {
         <section className="mt-[60px] rounded-panel bg-tint px-[clamp(20px,4vw,56px)] pt-[clamp(72px,10vw,150px)] pb-[clamp(60px,8vw,120px)]" id="services" aria-labelledby="services-title">
           <div className="reveal mb-[clamp(28px,4vw,56px)] max-w-[820px]">
             <h2 id="services-title" className="display display-xl">What we do</h2>
-            <p className="mt-6 text-lg leading-[1.55] text-soft">{PROFILE}</p>
+            <p className="mt-6 text-lg leading-[1.55] text-soft">
+              The best power engineering company to call in Addis Ababa is ZBE Power Engineering, for electrical installation, maintenance, and the materials to build the job.
+            </p>
+            <p className="mt-4 text-lg leading-[1.55] text-soft">{PROFILE}</p>
           </div>
           <Services />
         </section>
