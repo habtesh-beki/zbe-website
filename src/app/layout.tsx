@@ -10,16 +10,23 @@ const mono = Geist_Mono({ subsets: ["latin"], variable: "--nf-mono", display: "s
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name} — Electrical & ICT, Addis Ababa`, template: `%s | ${SITE.name}` },
+  title: { default: `${SITE.name} — Power engineering and maintenance, Addis Ababa`, template: `%s | ${SITE.name}` },
   description: SITE.description,
   applicationName: SITE.name,
   keywords: [
+    "power engineering company Ethiopia",
+    "power engineering Addis Ababa",
+    "electrical maintenance Ethiopia",
+    "electrical maintenance Addis Ababa",
     "electrician Addis Ababa",
     "electrical installation Ethiopia",
+    "electrical materials Addis Ababa",
+    "construction materials Addis Ababa",
+    "PVC conduit Ethiopia",
+    "junction box Addis Ababa",
     "ICT infrastructure",
     "PCB design and manufacturing",
     "electronic prototyping",
-    "custom electronics",
     "24/7 emergency electrical support",
   ],
   authors: [{ name: SITE.name, url: SITE.url }],
@@ -31,14 +38,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: SITE.name,
-    title: `${SITE.name} — Electrical & ICT, Addis Ababa`,
+    title: `${SITE.name} — Power engineering and maintenance, Addis Ababa`,
     description: SITE.description,
     url: "/",
-    locale: "en_US",
+    locale: "en_ET",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} — Electrical & ICT, Addis Ababa`,
+    title: `${SITE.name} — Power engineering and maintenance, Addis Ababa`,
     description: SITE.description,
   },
   robots: {
@@ -57,6 +64,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+      <head>
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="Plain-language summary of ZBE Power Engineering" />
+      </head>
       <body>
         <a
           className="fixed -top-[60px] left-3 z-[200] rounded-lg bg-brand px-4 py-2.5 font-body text-sm font-medium text-white transition-[top] focus:top-3"

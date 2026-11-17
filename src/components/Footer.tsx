@@ -25,14 +25,16 @@ export default function Footer() {
             <Image src={zbeLogo} alt={SITE.name} width={57} height={54} sizes="57px" className="rounded-md" />
           </a>
           <p className="mt-3.5 max-w-[460px]">
-            We specialize in electrical installation systems and ICT infrastructure. With a commitment to innovation and
-            quality, we deliver state-of-the-art solutions tailored to your needs.
+            We specialize in electrical installation systems and ICT infrastructure, and we supply the conduit, cable,
+            fittings and site tools for that work in Addis Ababa.
           </p>
         </div>
         <nav aria-label="Footer" className={`${col} font-mono text-[13px] pointer-coarse:gap-0 pointer-coarse:[&_a]:py-3`}>
           <p className={label}>Navigate</p>
           <a href="#gallery">Gallery</a>
           <a href="#services">Services</a>
+          <a href="#materials">Materials</a>
+          <a href="#questions">Questions</a>
           <a href="#clients">Clients</a>
         </nav>
         <address className={`${col} font-mono text-[13px] pointer-coarse:gap-0 pointer-coarse:[&_a]:py-3`}>

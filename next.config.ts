@@ -3,6 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  experimental: {
+    // The default "security" policy stops `next dev` and launches an upgrade instead of serving the site.
+    agentUpgrade: false,
+  },
   images: {
     formats: ["image/avif", "image/webp"],
   },

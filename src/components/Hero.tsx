@@ -89,8 +89,8 @@ export default function Hero() {
           <a href="#top" className="block pointer-coarse:flex pointer-coarse:min-h-11 pointer-coarse:items-center" aria-label={SITE.name}>
             <Image src={zbeLogo} alt={SITE.name} width={48} height={46} sizes="48px" loading="eager" className="rounded-md" />
           </a>
-          <nav aria-label="Primary" className="flex gap-2 text-sm">
-            {[["#gallery", "Gallery"], ["#clients", "Clients"], ["#services", "Services"], ["#contact", "Contact"]].map(([href, label]) => (
+          <nav aria-label="Primary" className="flex flex-wrap justify-end gap-x-3 gap-y-1 text-sm lg:justify-start">
+            {[["#gallery", "Gallery"], ["#clients", "Clients"], ["#services", "Services"], ["#materials", "Materials"], ["#contact", "Contact"]].map(([href, label]) => (
               <a
                 key={href}
                 href={href}
@@ -107,7 +107,7 @@ export default function Hero() {
             Electrical and ICT engineering, <span className="text-brand">built in Addis&nbsp;Ababa.</span>
           </h1>
           <p className="mt-5 mb-7 max-w-[560px] text-lg leading-[1.55] text-soft">
-            Electrical installation, ICT infrastructure, PCB design and prototyping.
+            Power engineering, electrical installation and maintenance, ICT, PCB design, and the materials to build them.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="#gallery" className="btn">View our work <span aria-hidden="true">→</span></a>
