@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     // The default "security" policy stops `next dev` and launches an upgrade instead of serving the site.
     agentUpgrade: false,
   },
+  htmlLimitedBots: /(?!)/, // match nothing → bots get the same response as browsers
   images: {
     formats: ["image/avif", "image/webp"],
   },
